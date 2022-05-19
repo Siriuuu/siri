@@ -1,0 +1,21 @@
+nav{
+    background-color: darksalmon;
+    text-align: right;
+}
+nav li{
+    list-style-type:none;
+    display: inline-block;
+    height: 60px;
+    width: 120px;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+}
+nav li a:hover{
+    background-color: bisque;
+    color: aqua;
+    transirion:background-color 2s linear 
+}
