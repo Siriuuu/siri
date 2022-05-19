@@ -17,5 +17,5 @@ nav li a{
 nav li a:hover{
     background-color: bisque;
     color: aqua;
-    transirion:background-color 2s linear 
+    transition:background-color 2s linear , color 2s ease-in-out;
 }
