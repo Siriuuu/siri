@@ -1,26 +1,41 @@
-body{
+body {
     background-color: bisque;
-    color: greenyellow;
+    color: darkgray;
 }
-h1{color: blueviolet;}
-nav{
+
+h1 {
+    color: blueviolet;
+}
+
+
+
+nav {
     background-color: darksalmon;
-    text-align: right;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    text-size-adjust: 50%;
 }
-nav li{
-    list-style-type:none;
+
+nav ul {
+    margin: 0px;
+}
+
+nav li {
+    list-style-type: none;
     display: inline-block;
     height: 60px;
     width: 120px;
 }
-nav li a{
+
+nav li a {
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     color: aliceblue;
 }
-nav li a:hover{
+
+nav li a:hover {
     background-color: bisque;
     color: aqua;
-    transition:background-color 2s linear , color 2s ease-in-out;
+    transition: background-color 2s linear, color 2s ease-in-out;
 }
